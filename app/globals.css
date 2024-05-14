@@ -105,3 +105,43 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+
+.product-list {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  height: auto;
+  width: 300px;
+  flex-direction: column;
+}
+
+.product-image {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #007bff;
+}
